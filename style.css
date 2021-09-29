@@ -1,0 +1,89 @@
+#cabecalho{
+  background-color: black;
+}
+#cabecalho ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#cabecalho li {
+  float: left;
+}
+#cabecalho  li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#cabecalho li#sobre {
+	float:right;
+}
+#cabecalho ul li a:hover{
+  background-color: red;
+}
+
+#cabecalho ul ul{
+  position: absolute;
+  background-color: white;
+  display: none;
+}
+
+#cabecalho ul li:hover > ul{
+  display: block ;
+}
+#cabecalho ul ul li a {
+  display: line-block;
+  color: black;
+}
+
+#cab{
+  background-color: rgb(26, 121, 26);
+}
+
+.eventos{
+  text-align: center;
+}
+
+.arredondar{
+  border-radius: 50%;
+}
+
+.borda{
+  border-width: 1px;
+  border-color: blue;
+  border-style: dashed;
+}
+
+
+input[type=text], input[type=email], input[type=tel], input[type=url], textarea, select {
+  width: 100%; /*escolher o comprimento do campo*/
+  padding: 12px 20px;/*escolhe a altura do campo*/
+  margin: 8px 0;/*define a margem do campo dentro da div*/
+  
+  border: 1px solid #ccc; /*define a cor da borda dos campos*/
+  border-radius: 4px; /*define a borda dos campos*/
+  box-sizing: border-box;/* define que os campos fiquem dentro da div*/
+}
+
+.button {
+  width: 100%;/*escolher o comprimento do campo*/
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;/*escolhe a altura do campo*/
+  margin: 8px 0;/*define a margem do campo dentro da div*/
+  border: none;/*define a cor da borda dos campos*/
+  border-radius: 4px; /*define a borda dos campos*/
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0c6d07;
+}
+
+.entrar {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
