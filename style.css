@@ -1,41 +1,65 @@
-#cabecalho{
-  background-color: black;
-}
-#cabecalho ul {
+#cabecalho ul{
   list-style-type: none;
-  margin: 0;
   padding: 0;
-  overflow: hidden;
+  margin: 0; 
+
 }
-#cabecalho li {
-  float: left;
+
+#cabecalho ul{
+  background-color: black; 
 }
-#cabecalho  li a {
-  display: inline-block;
-  color: white;
+
+#cabecalho ul li{
+  display: inline;
+  position: relative;
   text-align: center;
-  padding: 14px 16px;
+  line-height: 30px;
+}
+#cabecalho ul li a{
+  color: white;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px;
 }
-#cabecalho li#sobre {
-	float:right;
-}
+
 #cabecalho ul li a:hover{
   background-color: red;
+  transition: .3s;
+  
 }
 
 #cabecalho ul ul{
-  position: absolute;
-  background-color: white;
   display: none;
+  position: absolute;
+  left: 0;
 }
 
-#cabecalho ul li:hover > ul{
-  display: block ;
+#cabecalho ul li:hover ul{
+  display: block;
 }
-#cabecalho ul ul li a {
-  display: line-block;
+
+#cabecalho ul ul{
+  width: 280px;
+  background-color: white;
   color: black;
+}
+#cabecalho ul ul a{
+  color: black;
+  text-align: left;
+}
+#cabecalho ul ul li a{
+  background-color: white;
+}
+#cabecalho ul ul li a{
+  display: block;
+}
+#cabecalho ul li ul li a:hover{
+  background-color: rgb(245, 245, 245);
+  transition: .3s;
+}
+
+#cabecalho li#sobre {
+	float:right;
 }
 
 #cab{
